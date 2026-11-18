@@ -22,7 +22,7 @@ spec:
           type: RuntimeDefault
       containers:
       - name: apiserver
-        image: ghcr.io/example-org/example-service:latest
+        image: ghcr.io/datum-cloud/gateway:latest
         imagePullPolicy: IfNotPresent
         securityContext:
           allowPrivilegeEscalation: false

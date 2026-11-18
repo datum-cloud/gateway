@@ -23,7 +23,7 @@ labels:
 
 # Images (will be replaced by overlays for different environments)
 images:
-  - name: ghcr.io/example-org/example-service
+  - name: ghcr.io/datum-cloud/gateway
     newTag: latest
 
 # JSON patches to ensure rbac-auth-reader stays in kube-system
