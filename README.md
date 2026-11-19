@@ -1,4 +1,17 @@
-# Service Template
+# Datum Gateway
+
+Datum's gateway repository currently contains a service-template scaffold and an
+isolated managed forward-proxy proof of concept. The prototype uses stock Envoy
+for authenticated HTTP forwarding and HTTPS CONNECT with selectable, locally
+bound source IPs. It does not implement a platform controller or production
+deployment.
+
+Start with [the forward-proxy prototype](prototype/forward-proxy/README.md) for
+its runtime, test-infra-backed end-to-end tests, and CI boundaries. The existing
+Kubernetes API-server scaffold below is retained unchanged for future work; it
+is not required to run the proxy.
+
+## Original Service Template
 
 > **This is a GitHub template repository.** Click "Use this template" to create
 > a new Kubernetes aggregated API server for your own custom resources.
